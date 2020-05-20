@@ -1,0 +1,24 @@
+{
+  "name": "@gomezd/humptydumpty",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "semistandard && nyc ava -v",
+    "lint": "semistandard --fix",
+    "prepublishOnly": "npm test"
+  },
+  "keywords": [
+    "logic",
+    "rule",
+    "async",
+    "boolean"
+  ],
+  "author": "David Gomez <david.garcia.mx@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "ava": "^3.8.2",
+    "nyc": "^15.0.1",
+    "semistandard": "^14.2.0"
+  }
+}
