@@ -6,7 +6,8 @@
   "scripts": {
     "test": "semistandard && nyc ava -v",
     "lint": "semistandard --fix",
-    "prepublishOnly": "npm test"
+    "prepublishOnly": "npm test",
+    "postpublish": "git push origin --tags"
   },
   "keywords": [
     "logic",

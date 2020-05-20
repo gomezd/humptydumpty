@@ -1,3 +1,4 @@
+
 const rule = (fn, { name } = {}) => ({
   and (otherRule, opts) {
     return rule(async () => await this.value && otherRule.value, opts);
