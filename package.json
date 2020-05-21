@@ -7,7 +7,7 @@
     "test": "semistandard && nyc ava -v",
     "lint": "semistandard --fix",
     "prepublishOnly": "npm test",
-    "postpublish": "git push origin --tags"
+    "postpublish": "git push && git push origin --tags"
   },
   "keywords": [
     "logic",
@@ -15,6 +15,10 @@
     "async",
     "boolean"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:gomezd/humptydumpty.git"
+  },
   "author": "David Gomez <david.garcia.mx@gmail.com>",
   "license": "ISC",
   "devDependencies": {
